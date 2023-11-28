@@ -8,8 +8,8 @@ import datetime
 
 def home(request):
     if request.method=='post':
-         n= request.POST.get("nam")
-         print(n,"jeygfj")
+         nam= request.post['nam']
+         print("jeygfj",nam)
 
     date=datetime.datetime.now()
     
